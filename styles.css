@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+body {
+			background-color: #cccccc;
+		}
+		.player_one ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+		}
+		.player_one li {
+			padding: 10px;
+			margin: 10px;
+			background-color: white;
+			border-radius: 5px;
+			box-shadow: 2px 2px 5px #aaaaaa;
+		}
+		.player_one li a {
+			color: #333333;
+			text-decoration: none;
+		}
+		.player_two video {
+			max-width: 100%;
+			height: auto;
+		}
+		.player_two audio {
+			max-width: 100%;
+		}
